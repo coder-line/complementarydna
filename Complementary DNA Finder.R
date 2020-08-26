@@ -1,5 +1,4 @@
 #complementary DNA "TGCGGCAGCGGCCG"
-#https://www.youtube.com/watch?v=jm2j0P1hmEE&list=LL1bQMHHHX1GTiTAyQ2pX-Pw&index=16&t=0s
 DNAseq <-function(x){
   basepair=c("A","T","G","C")
   abc<-unlist(strsplit(toupper(x), NULL))
